@@ -1,6 +1,6 @@
 a,b=map(int,input().split())
 for n in range(a,b+1):
- order=len(str(num))
+ order=len(str(n))
  s=0
  t=n
  while t>0:
